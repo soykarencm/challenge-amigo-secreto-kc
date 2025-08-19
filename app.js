@@ -8,8 +8,21 @@ function agregarAmigo() {
   if (nombre === '') {
     alert('Por favor, inserte un nombre 😊')
   } else {
-    amigos.push(nombre) 
+    amigos.push(nombre)
     document.getElementById('amigo').value = '' // Limpia el input
+    lista()
   }
   console.log(amigos)
+}
+
+function lista() {
+  let listaDeNombres = document.querySelector('#listaAmigos')
+
+  // Limpia la lista existente para que no haya duplicados al actualizar
+  listaDeNombres.innerHTML = ''
+
+  // Recorrer el array y añadir a cada amigo en <li> con la ayuda de un template string
+  for (let i = 0; i < amigos.length; i++) {
+    listaDeNombres.innerHTML += `<li>${amigos[i]}</li>`
+  }
 }
