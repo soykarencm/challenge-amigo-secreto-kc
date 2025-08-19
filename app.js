@@ -1,4 +1,4 @@
-// Challenge
+// Challenge Amigo Secreto
 let amigos = [];
 
 function agregarAmigo() {
@@ -43,5 +43,5 @@ function sortearAmigo() {
   // Reiniciar todo para volver a empezar
   amigos = []; // vaciar array
   document.getElementById('listaAmigos').innerHTML = ''; // limpiar lista visual
-  document.getElementById('amigo').value = ''; // limpiar input
+  document.getElementById('amigo').value = '';
 }
