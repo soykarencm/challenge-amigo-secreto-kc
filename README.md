@@ -14,5 +14,9 @@ El código HTML y CSS fueron proporcionados, y yo trabajé únicamente en la par
 - `style.css` → Estilos proporcionados para la interfaz.
 - `app.js` → Archivo trabajado, contiene toda la lógica implementada en JavaScript.
 
+## 🚀 Juega aquí
+🔗 [Probar el juego](https://soykarencm.github.io/challenge-amigo-secreto-kc/)
+
+
 ## 📸 Vista previa
 ![Demo](assets/screenshot.png)
