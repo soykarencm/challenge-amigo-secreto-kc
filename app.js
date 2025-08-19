@@ -12,7 +12,7 @@ function agregarAmigo() {
     document.getElementById('amigo').value = ''; // Limpia el input
     lista();
   }
-  console.log(amigos);
+  // console.log(amigos);
 }
 
 function lista() {
